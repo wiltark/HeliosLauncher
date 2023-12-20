@@ -3,19 +3,19 @@ updateAvailableTooltip = "Update Available"
 usernamePlaceholder = "Username"
 usernameEditButton = "Edit"
 settingsTooltip = "Settings"
-serverStatus = "SERVER"
+serverStatus = "SERVEUR"
 serverStatusPlaceholder = "OFFLINE"
-mojangStatus = "MOJANG STATUS"
+mojangStatus = "MC STATUS"
 mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
 newsButton = "NEWS"
-launchButton = "PLAY"
+launchButton = "JOUER"
 launchButtonPlaceholder = "&#8226; No Server Selected"
 launchDetails = "Please wait.."
 newsNavigationStatus = "{currentPage} of {totalPages}"
 newsErrorLoadSpan = "Checking for News.."
-newsErrorFailedSpan = "Failed to Load News"
-newsErrorRetryButton = "Try Again"
+newsErrorFailedSpan = "BIENTOT"
+newsErrorRetryButton = ""
 newsErrorNoneSpan = "No News"
 
 [ejs.login]
@@ -35,18 +35,18 @@ loginPasswordDisclaimer1 = "Your password is sent directly to mojang and never s
 loginPasswordDisclaimer2 = "{appName} is not affiliated with Mojang AB."
 
 [ejs.loginOptions]
-loginOptionsTitle = "Login Options"
-loginWithMicrosoft = "Login with Microsoft"
-loginWithMojang = "Login with Mojang"
+loginOptionsTitle = "se connecter avec ..."
+loginWithMicrosoft = "Microsoft"
+loginWithMojang = "Mojang (compte dépasser)"
 cancelButton = "Cancel"
 
 [ejs.overlay]
-serverSelectHeader = "Available Servers"
-serverSelectConfirm = "Select"
-serverSelectCancel = "Cancel"
-accountSelectHeader = "Select an Account"
-accountSelectConfirm = "Select"
-accountSelectCancel = "Cancel"
+serverSelectHeader = "les autre serveurs"
+serverSelectConfirm = "Sélectionner"
+serverSelectCancel = "Annuler"
+accountSelectHeader = "Sélectionner un compte"
+accountSelectConfirm = "Sélectionner"
+accountSelectCancel = "Annuler"
 
 [ejs.settings]
 navHeaderText = "Settings"
@@ -158,9 +158,9 @@ noSelection = "No Server Selected"
 loading = "Loading.."
 
 [js.landing.serverStatus]
-server = "SERVER"
+server = "SERVEUR"
 offline = "OFFLINE"
-players = "PLAYERS"
+players = "JOUEURS"
 
 [js.landing.systemScan]
 checking = "Checking system info.."
@@ -276,6 +276,6 @@ loginButton = "Login"
 selectAnotherAccountButton = "Select Another Account"
 
 [js.uicore.autoUpdate]
-checkingForUpdateButton = "Checking for Updates..."
-installNowButton = "Install Now"
-checkForUpdatesButton = "Check for Updates"
+checkingForUpdateButton = ""
+installNowButton = ""
+checkForUpdatesButton = ""
